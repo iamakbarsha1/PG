@@ -101,7 +101,7 @@ ii) Using Truth table: P. T.:- P -> (Q -> R) => (P -> Q) -> (P -> R)
 ![[Pasted image 20240315230239.png]]
 
 <span style="background:#affad1">Know the concept and DIY</span>
-
+https://www.javatpoint.com/tree-traversal
 ### i)
 1. <font color="#ffff00">Preorder</font> traversal:
 	1. This technique follows the '**<span style="background:#b1ffff">root left right</span>**' policy.
