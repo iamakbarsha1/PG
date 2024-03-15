@@ -46,6 +46,9 @@
 
 ### 9:
 ![[Pasted image 20240315224048.png]]
+No Answer
+### 10:
+![[Pasted image 20240315224058.png]]
 #### What is Graph Theory?
 1. Graph Theory is a branch of Mathematics in which we study graphs.
 2. Graphs are mathematical structures which consists of a set V of vertices and set E of edges. 
@@ -54,10 +57,6 @@
 1. The ‘feeble glance’ which <font color="#ffc000">Leonhard Euler</font> (1707–1783) directed towards the geometry of position consists of a single paper now considered to be the starting point of modern graph theory.
 2. The paper published by Euler appeared in Commentarii Academiae Scientiarum Imperialis Petropolitanae in <font color="#ffff00">1736</font> on the <span style="background:#fdbfff">Seven Bridges of Königsberg</span> is regarded as the first paper in the history of graph theory.
 3. He created first graph to simulate a real time place and situation to solve a problem which was then considered one of the toughest problems.
-
-### 10:
-![[Pasted image 20240315224058.png]]
-
 # Part - B
 
 #### 11:
