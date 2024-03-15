@@ -88,6 +88,7 @@ ii) Using Truth table: P. T.:- P -> (Q -> R) => (P -> Q) -> (P -> R)
 ![[Pasted image 20240315225931.png]]
 ![[Pasted image 20240315225959.png]]
 ![[Pasted image 20240315230015.png]]
+![[Pasted image 20240315233626.png]]
 
 
 #### 14:
@@ -145,6 +146,13 @@ https://www.javatpoint.com/tree-traversal
 	2. **A v — w trail that is not a v — w path:**
 		1. In the graph, a v — w trail that is not a v — w path could be: <span style="background:#fff88f">v — u — w</span>. 
 		2. This trail visits the vertex u twice, which makes it a trail but not a path.
+
+#### Additional:
+![[Pasted image 20240315233412.png]]
+<img src='./src/Pasted image 20240315233809.png' >
+------
+
+![[Pasted image 20240315233809.png]]
 
 
 
