@@ -148,8 +148,8 @@ https://www.javatpoint.com/tree-traversal
 
 #### Additional:
 ![[Pasted image 20240315233412.png]]
-<img src='./src/Pasted image 20240315233809.png' >
-------
+![[Pasted image 20240316003641.png]]
+
 
 ![[Pasted image 20240315233809.png]]
 
