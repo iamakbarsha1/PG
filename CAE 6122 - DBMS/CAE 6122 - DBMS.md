@@ -182,3 +182,42 @@ List of  DCL commands: 
 	1. Examples – Hbase, Big Table, Accumulo
 4. ****Document-based:**** 
 	1. Examples – MongoDB, CouchDB, Cloudant
+
+# 3. RAID (Redundant Arrays of Independent Disks)
+
+- RAID is a technique that makes use of a combination of multiple disks instead of using a single disk for increased performance, data redundancy, or both.
+## ****Why Data Redundancy?****
+
+Data redundancy, although taking up extra space, adds to disk reliability. This means, that in case of disk failure, if the same data is also backed up onto another disk, we can retrieve the data and go on with the operation
+## ****Key Evaluation Points for a RAID System****
+
+- ****Reliability:**** 
+- ****Availability:****  
+- ****Performance:****
+- ****Capacity:****
+
+- RAID is very transparent to the underlying system. 
+- This means, that to the host system, it appears as a single big disk presenting itself as a linear array of blocks. 
+- This allows older technologies to be replaced by RAID without making too many changes to the existing code.
+## ****Different RAID Levels****
+
+1. [RAID-0 (Stripping)](https://www.geeksforgeeks.org/difference-between-raid-0-and-raid-1/)  
+2. [RAID-1 (Mirroring)](https://www.geeksforgeeks.org/difference-between-raid-0-and-raid-1/) 
+3. [RAID-2 (Bit-Level Stripping with Dedicated Parity)](https://www.geeksforgeeks.org/difference-between-raid-2-and-raid-3/)
+4. [RAID-3 (Byte-Level Stripping with Dedicated Parity)](https://www.geeksforgeeks.org/difference-between-raid-2-and-raid-3/)
+5. [RAID-4 (Block-Level Stripping with Dedicated Parity)](https://www.geeksforgeeks.org/difference-between-raid-3-and-raid-4/) 
+6. RAID-5 (Block-Level Stripping with Distributed Parity) 
+7. RAID-6 (Block-Level Stripping with two Parity Bits)
+## Advantages of RAID
+
+- ****Data redundancy:****
+- ****Performance enhancement:**** 
+- ****Scalability:****
+- ****Versatility:**** 
+## Disadvantages of RAID
+
+- ****Cost:**** 
+- ****Complexity:**** 
+- ****Decreased performance:**** 
+- ****Single point of failure:**** 
+
