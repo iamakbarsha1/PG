@@ -25,14 +25,14 @@
 1. Circuit & Packet Switching:
 
 | <font color="#ff0000">Circuit Switching </font>                                                                                             | <font color="#f79646">Packet Switching </font>                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --- | --- |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | More reliable.                                                                                                                              | Less reliable                                                                                                    |
 | A communication method where a dedicated communication path, or circuit, is established between two devices before data transmission begins | A communication method where data is divided into smaller units called packets and transmitted over the network. |
 | Data is processed at the source system only                                                                                                 | Data is processed at all intermediate nodes including the source system.                                         |
 | It is not a store and forward technique                                                                                                     | It is a store and forward technique.                                                                             |
 | Transmission of the data is done by the source.                                                                                             | Transmission of the data is done not only by the source but also by the intermediate routers.                    |
 | Implemented at the physical layer                                                                                                           | Implemented at the datalink layer and network layer                                                              |
-| Requires simple protocols for delivery                                                                                                      | Requires complex protocols for delivery                                                                          |     |     |
+| Requires simple protocols for delivery                                                                                                      | Requires complex protocols for delivery                                                                          |
 
 ---
 
