@@ -69,6 +69,8 @@
 - All these 7 layers work collaboratively to transmit the data from one person to another across the globe. 
 - OSI model was developed by ISO – ‘International Organization for Standardization‘, in the year 1984.
 
+#### PDNTSPA
+
 | <font color="#f79646">Layers No.</font> | <font color="#92d050">Layers Name</font> | <font color="#ff0000">Function</font>                                        |
 | --------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------- |
 | Layer 1                                 | Physical Layer (LOWEST)                  | Transmission method used to propagate bits through a network                 |
@@ -78,6 +80,38 @@
 | Layer 5                                 | Session Layer                            | Job management tracking                                                      |
 | Layer 6                                 | Presentation Layer                       | Encoding the language used in transmission.                                  |
 | Layer 7                                 | Application Layer (HIGHEST)              | User networking applications and interfacing to the network.                 |
+
+   1. Physical Layer:
+      1. Responsibility is hop-to-hop delivery of bits.
+      2. Physical Topology
+      3. Transmission mode
+   2. Data link Layer:
+      1. Responsibility is hop-to-hop delivery of frames.
+      2. Uses Physical address called MAC adderss associated with Metwork Interface Card (NIC)
+      3. Hop-to-hop flow & Errro control.
+   3. Network Layer:
+      1. Responsibel for End to end delivery of individual packets.
+      2. The sender and receiver are identified by using a logical address or IP address.
+   4. Transport Layer:
+      1. Flow Control − It keeps a fast transmitter from flooding a slow receiver.
+      2. Error Control − To retransmit the damaged segments.
+   5. Session Layer:
+      1. Responsobilities:
+         1. Network log-on and log-off procedures
+         2. User authentication
+         3. Determines the type dialog available − simplex, half-duplex, and full-duplex.
+   6. Presentation Layer:
+      1. Deals how data is presented to the network.
+      2. Responsibilities:
+         1. Translation
+         2. COmpression
+         3. Encryption
+   7. Application Layer:
+      1. 7th and topmost layer
+      2. Very close to user
+      3. uses WWW to aloow the web browsers to request documents from web servers
+      4. Holds protocol services such as HTTP.
+
 ### 12. Ethernet Frame Format:
 
 https://www.geeksforgeeks.org/ethernet-frame-format/
